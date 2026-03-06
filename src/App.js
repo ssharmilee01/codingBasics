@@ -6,6 +6,15 @@ import PalindromeChecker from "./basic/palindrome";
 import MissingChar from "./basic/MissingChar";
 
 import "./styles.css";
+import Accordian from "./components/Accordian";
+import Sorting from "./basic/sorting";
+import CustomHooks from "./components/CustomHooks-GE";
+import FunctionCurry from "./basic/FunctionCurry";
+import HigherOrderComponent from "./components/HOC";
+import Internationalization from "./components/i18n";
+import Lifecycle from "./components/hooks/LifeCycle";
+import ForwardReff from "./components/hooks/Forwardreff";
+import FetchAPI from "./api/FetchAPI";
 
 export default function App() {
   return (
@@ -15,7 +24,17 @@ export default function App() {
       {/* <CountCharacter /> */}
       {/* <CustomHook /> */}
       {/* <OddEven /> */}
-      <MissingChar />
+      {/* <MissingChar /> */}
+      {/* <Accordian title="What is React?" content={"React is a Javascript Language Library for building user interfaces."} />
+      <Accordian title="What is a component?" content={"Components are the building blocks of a React application's UI. These components split up the entire UI into small independent and reusable pieces."} /> */}
+      {/* <Sorting /> */}
+      {/* <CustomHooks /> */}
+      {/* <FunctionCurry /> */}
+      {/* <HigherOrderComponent /> */}
+      {/* <Internationalization /> */}
+      {/* <Lifecycle /> */}
+      {/* <ForwardReff /> */}
+      <FetchAPI />
     </div>
   );
 }

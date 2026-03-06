@@ -18,9 +18,8 @@ const useCardStyle = (color = "blue", size = "md") => {
     };
 
     const selectedSize = sizes[size] || sizes.md;
-    console.log("selectedSize", selectedSize.width);
     const selectedColor = colors[color] || colors.blue;
-    console.log("useMemo");
+
     return {
       backgroundColor: selectedColor.bg,
       border: `2px solid ${selectedColor.border}`,
