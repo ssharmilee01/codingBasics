@@ -15,6 +15,14 @@ import Internationalization from "./components/i18n";
 import Lifecycle from "./components/hooks/LifeCycle";
 import ForwardReff from "./components/hooks/Forwardreff";
 import FetchAPI from "./api/FetchAPI";
+import StaleClosureExample from "./components/hooks/StaleClosures";
+import UseMemo from "./components/optimisation-technics/UseMemo";
+import UseCallBack from "./components/optimisation-technics/UseCallBack";
+import ReactMemo from "./components/optimisation-technics/ReactMemo";
+import ReactMemoClass from "./components/optimisation-technics/ReactMemoClass";
+import CoordinateLabel from "./components/RenderProps/CoordinateLabel";
+import FollowerCircle from "./components/RenderProps/FollowerCircle";
+import ClassLifeCycle from "./components/ClassLifeCyle";
 
 export default function App() {
   return (
@@ -34,7 +42,17 @@ export default function App() {
       {/* <Internationalization /> */}
       {/* <Lifecycle /> */}
       {/* <ForwardReff /> */}
-      <FetchAPI />
+      {/* <FetchAPI /> */}
+      {/* <StaleClosureExample /> */}
+      {/* <UseMemo />
+      <UseCallBack />
+      <ReactMemo /> */}
+      {/* <ReactMemoClass /> */}
+      {/* ----------RenderProps--------------- */}
+      {/* <CoordinateLabel /> */}
+      {/* <FollowerCircle /> */}
+      {/*-----------Class Life Cycle----------------- */}
+      <ClassLifeCycle />
     </div>
   );
 }
