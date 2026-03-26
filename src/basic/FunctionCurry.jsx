@@ -1,6 +1,5 @@
 const FunctionCurry = () => {
 
-
     const curry = (fn) => {
         return function curried(...args) {
             if (args.length >= fn.length) {

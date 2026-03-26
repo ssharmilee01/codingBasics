@@ -23,6 +23,10 @@ import ReactMemoClass from "./components/optimisation-technics/ReactMemoClass";
 import CoordinateLabel from "./components/RenderProps/CoordinateLabel";
 import FollowerCircle from "./components/RenderProps/FollowerCircle";
 import ClassLifeCycle from "./components/ClassLifeCyle";
+import UseRef from "./components/hooks/UseRef";
+import Counter from "./components/CustomHooks/Counter";
+import TableFilterAPI from "./components/TableFilterAPI/TableFilterAPI";
+import ListDelegation from "./js-concepts/event-delegation";
 
 export default function App() {
   return (
@@ -41,7 +45,7 @@ export default function App() {
       {/* <HigherOrderComponent /> */}
       {/* <Internationalization /> */}
       {/* <Lifecycle /> */}
-      {/* <ForwardReff /> */}
+      <ForwardReff />
       {/* <FetchAPI /> */}
       {/* <StaleClosureExample /> */}
       {/* <UseMemo />
@@ -52,7 +56,13 @@ export default function App() {
       {/* <CoordinateLabel /> */}
       {/* <FollowerCircle /> */}
       {/*-----------Class Life Cycle----------------- */}
-      <ClassLifeCycle />
+      {/* <ClassLifeCycle /> */}
+      {/* <UseRef /> */}
+      {/* Use Previous - useRef and useEffect combined to implement this */}
+      {/* <Counter /> */}
+      {/* <TableFilterAPI /> */}
+      {/* JS Concepts */}
+      {/* <ListDelegation /> */}
     </div>
   );
 }
